@@ -1,5 +1,6 @@
 package io.github.esteveaguilera.androidworkshop;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -24,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
                 String welcomeMessage = "Welcome to the training " + userName + "!";
 
                 Toast.makeText(MainActivity.this, welcomeMessage, Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(MainActivity.this, SelectTrainingActivity.class);
+                startActivity(intent);
             }
         });
     }

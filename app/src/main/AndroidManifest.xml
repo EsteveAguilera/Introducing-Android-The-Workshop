@@ -19,10 +19,14 @@
         <activity
             android:name=".SelectTrainingActivity"
             android:label="@string/select_training" />
-        <activity android:name=".passdata.ActivityA"
+        <activity
+            android:name=".passdata.ActivityA"
             android:label="Activity A" />
-        <activity android:name=".passdata.ActivityB"
-            android:label="Activity B"/>
+        <activity
+            android:name=".passdata.ActivityB"
+            android:label="Activity B" />
+        <activity android:name=".sharedpreferences.SharedPreferencesActivity"
+            android:label="SharedPreferences"/>
     </application>
 
 </manifest>

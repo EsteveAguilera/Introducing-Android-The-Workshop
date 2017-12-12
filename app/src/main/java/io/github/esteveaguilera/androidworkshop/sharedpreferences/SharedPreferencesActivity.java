@@ -44,7 +44,11 @@ public class SharedPreferencesActivity extends AppCompatActivity {
             public void onClick(View v) {
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.putString(KEY_FIRST_VALUE, etFirstValue.getText().toString());
-                editor.putInt(KEY_SECOND_VALUE, Integer.valueOf(etSecondValue.getText().toString()));
+
+                if (!etSecondValue.getText().toString().isEmpty()){
+                    editor.putInt(KEY_SECOND_VALUE, Integer.valueOf(etSecondValue.getText().toString()));
+                }
+                
                 editor.apply();
                 showMessage("Values saved!");
             }

@@ -25,8 +25,22 @@
         <activity
             android:name=".passdata.ActivityB"
             android:label="Activity B" />
-        <activity android:name=".sharedpreferences.SharedPreferencesActivity"
-            android:label="SharedPreferences"/>
+        <activity
+            android:name=".sharedpreferences.SharedPreferencesActivity"
+            android:label="SharedPreferences" />
+        <activity
+            android:name=".intents.IntentsActivity"
+            android:label="Intents"/>
+
+        <provider
+            android:name=".intents.GenericFileProvider"
+            android:authorities="${applicationId}.intents"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
     </application>
 
 </manifest>

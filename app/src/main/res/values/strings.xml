@@ -9,4 +9,7 @@
     <string name="e_mail">e-mail</string>
     <string name="pass_data_to_activity_b">Pass data to Activity B</string>
     <string name="shared_preferences">Shared Preferences</string>
+    <string name="text_to_share">Text to share</string>
+    <string name="share_text">Share text</string>
+    <string name="share_image">Share image</string>
 </resources>

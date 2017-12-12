@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import io.github.esteveaguilera.androidworkshop.intents.IntentsActivity;
 import io.github.esteveaguilera.androidworkshop.passdata.ActivityA;
 import io.github.esteveaguilera.androidworkshop.sharedpreferences.SharedPreferencesActivity;
 
@@ -26,6 +27,13 @@ public class SelectTrainingActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SelectTrainingActivity.this, SharedPreferencesActivity.class));
+            }
+        });
+
+        findViewById(R.id.but_training_intents).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SelectTrainingActivity.this, IntentsActivity.class));
             }
         });
     }

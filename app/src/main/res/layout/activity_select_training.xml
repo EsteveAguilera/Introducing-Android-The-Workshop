@@ -54,4 +54,14 @@
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toBottomOf="@+id/but_training_broadcast_receivers" />
 
+   <Button
+       android:id="@+id/but_training_notifications"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="8dp"
+       android:text="@string/notifications"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/but_training_take_photo" />
+
 </android.support.constraint.ConstraintLayout>

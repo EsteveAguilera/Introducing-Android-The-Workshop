@@ -17,4 +17,6 @@
     <string name="broadcast_running">Broadcast Receiver is running</string>
     <string name="broadcast_stopped">Broadcast Receiver is stopped</string>
     <string name="take_photo">Take photo</string>
+    <string name="notifications">Notifications</string>
+    <string name="launch_notification">Launch notification</string>
 </resources>

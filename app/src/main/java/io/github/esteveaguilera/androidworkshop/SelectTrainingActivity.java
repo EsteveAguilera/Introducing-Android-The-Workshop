@@ -7,6 +7,7 @@ import android.view.View;
 
 import io.github.esteveaguilera.androidworkshop.broadcastreceiver.BroadcastReceiverActivity;
 import io.github.esteveaguilera.androidworkshop.intents.IntentsActivity;
+import io.github.esteveaguilera.androidworkshop.notification.NotificationsActivity;
 import io.github.esteveaguilera.androidworkshop.passdata.ActivityA;
 import io.github.esteveaguilera.androidworkshop.photo.TakePhotoActivity;
 import io.github.esteveaguilera.androidworkshop.sharedpreferences.SharedPreferencesActivity;
@@ -50,6 +51,13 @@ public class SelectTrainingActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SelectTrainingActivity.this, TakePhotoActivity.class));
+            }
+        });
+
+        findViewById(R.id.but_training_notifications).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SelectTrainingActivity.this, NotificationsActivity.class));
             }
         });
     }

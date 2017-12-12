@@ -39,6 +39,9 @@
         <activity
             android:name=".photo.TakePhotoActivity"
             android:label="Take Photo"/>
+        <activity
+            android:name=".notification.NotificationsActivity"
+            android:label="Notifications"/>
 
         <provider
             android:name=".intents.GenericFileProvider"

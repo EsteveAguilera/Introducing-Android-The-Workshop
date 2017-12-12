@@ -29,10 +29,19 @@
        android:id="@+id/but_training_intents"
        android:layout_width="0dp"
        android:layout_height="wrap_content"
-       android:layout_marginEnd="8dp"
        android:text="Intents"
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toBottomOf="@+id/but_training_shared_preferences" />
+
+   <Button
+       android:id="@+id/but_training_broadcast_receivers"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="8dp"
+       android:text="Broadcast Receivers"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/but_training_intents" />
 
 </android.support.constraint.ConstraintLayout>

@@ -5,4 +5,7 @@
     <string name="button_text">Push me</string>
     <string name="button_pass_data">Pass data</string>
     <string name="select_training">Select Training</string>
+    <string name="name">Name</string>
+    <string name="e_mail">e-mail</string>
+    <string name="pass_data_to_activity_b">Pass data to Activity B</string>
 </resources>

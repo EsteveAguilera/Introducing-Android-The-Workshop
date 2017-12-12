@@ -8,6 +8,7 @@
     android:padding="@dimen/padding_normal">
 
    <Button
+       android:id="@+id/but_training_pass_data"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:text="@string/button_pass_data"

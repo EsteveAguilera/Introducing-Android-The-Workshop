@@ -36,6 +36,10 @@
         <activity
             android:name=".broadcastreceiver.BroadcastReceiverActivity"
             android:label="Broadcast Receiver"/>
+        <activity
+            android:name=".photo.TakePhotoActivity"
+            android:label="Take Photo"/>
+
         <provider
             android:name=".intents.GenericFileProvider"
             android:authorities="${applicationId}.intents"
